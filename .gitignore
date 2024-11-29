@@ -1,3 +1,5 @@
 /.idea
 /StreamlitExample.zip
 /venv
+.venv/*
+.gitignore
