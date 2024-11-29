@@ -6,7 +6,7 @@ st.set_page_config(page_title="UniTS - MLOps",
                    initial_sidebar_state="auto",
                    menu_items=None)
 
-st.title("Streamlit: MLOps - modified")
+st.title("Streamlit: MLOps - V0.1")
 st.header(":blue[Main Page]")
 st.markdown("# This is the main page")
 st.markdown("## Let's check Streamlit functions!")
