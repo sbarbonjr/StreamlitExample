@@ -8,6 +8,7 @@ st.set_page_config(page_title="UEL - MLOps",
 
 st.title("Streamlit: MLOps - modified")
 st.header(":red[Main Page]")
+
 st.markdown("# This is the main page")
 st.markdown("## Let's check Streamlit functions!")
 st.markdown("> Here we can **insert** our comments")
