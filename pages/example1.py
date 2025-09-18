@@ -1,13 +1,13 @@
 import streamlit as st
 
-st.set_page_config(page_title="UniTS - MLOps",
+st.set_page_config(page_title="UEL - MLOps",
                    page_icon=None,
                    layout="centered",
                    initial_sidebar_state="auto",
                    menu_items=None)
 
 st.title("Streamlit: MLOps")
-st.header(":green[Example 1]")
+st.header(":red[Example 1]")
 
 html_string = ("<p> " +
                "<ul>" +

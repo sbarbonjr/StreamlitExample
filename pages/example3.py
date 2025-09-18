@@ -1,6 +1,7 @@
 import streamlit as st
 import datetime
 from random import random
+import numpy as np
 
 st.set_page_config(page_title="UniTS - MLOps",
                    page_icon=None,
@@ -23,7 +24,7 @@ with st.form("my_form"):
 if submitted:
     st.success("Success!")
     output = random()
-    st.write("The predicted value is ", output)
+    st.write("The predicted value is ", np.round(output,2))
 
 
 

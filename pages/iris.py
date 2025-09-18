@@ -26,7 +26,7 @@ def predict_iris_class(sepal_length, sepal_width, petal_length, petal_width):
 
 # Button to trigger the prediction
 if st.button('Predict'):
-    prediction = predict_iris_class(input_sepal_length, input_sepal_width, input_petal_length, input_petal_width)
+    prediction = predict_iris_class(input_sepal_length, input_sepal_width, input_petal_length, input_petal_width)[0]
     species = ['Setosa', 'Versicolor', 'Virginica']
     st.write(f'Predicted Iris Species ({prediction}): {species[int(prediction)]}')
 
